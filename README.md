@@ -1,41 +1,41 @@
-# ✈️ Airline Reservation System (C++)
+# Airline Reservation System (C++)
 
 A console-based **Airline Reservation System** built in C++ using core Data Structures. Simulates real-world flight booking with passenger management, seat selection, cancellations, and an admin panel.
 
 ---
 
-## 📌 Features
+## Features
 
-### 🎫 Booking System
+###  Booking System
 - Book flights between multiple cities (Ahmedabad, Mumbai, Delhi, Chennai)
 - Multi-passenger booking with queue-based processing
 - Interactive seat map with real-time availability
 - Auto-generated **PNR** (Passenger Name Record) for each booking
 
-### 🧍 Passenger Management
+### Passenger Management
 - Input validation for Phone, Email, and Passport ID (Regex-based)
 - Choose Travel Class: **Economy / Business / First**
 - Choose Meal Preference: **Veg / Non-Veg / Jain**
 - View booking details by PNR
 
-### ❌ Cancellation & Refund
+### Cancellation & Refund
 - Cancel booking using PNR
 - **80% refund** automatically calculated
 - Seat freed and marked available after cancellation
 
-### 🛡️ Admin Panel *(Password Protected)*
+###  Admin Panel *(Password Protected)*
 - View seat map for any flight
 - View full passenger list
 - Add new flights dynamically
 - View booking statistics (Revenue & Total Passengers)
 - Update flight status: `On-Time / Delayed / Cancelled`
 
-### 💾 Data Export
+###  Data Export
 - Passenger list auto-saved to `.txt` file per flight
 
 ---
 
-## 🗂️ Data Structures Used
+## Data Structures Used
 
 | Data Structure | Usage |
 |----------------|-------|
@@ -47,7 +47,7 @@ A console-based **Airline Reservation System** built in C++ using core Data Stru
 
 ---
 
-## 🛫 Flight Classes & Pricing
+##  Flight Classes & Pricing
 
 | Class | Rows | Price Multiplier |
 |-------|------|-----------------|
@@ -59,7 +59,7 @@ A console-based **Airline Reservation System** built in C++ using core Data Stru
 
 ---
 
-## 🗺️ Seat Map Layout
+## Seat Map Layout
 
 ```
     A  B  C     D  E  F  G     H  I  J
@@ -74,7 +74,7 @@ A console-based **Airline Reservation System** built in C++ using core Data Stru
 
 ---
 
-## 🚀 How to Run
+##  How to Run
 
 ### Prerequisites
 - C++ compiler (GCC / G++ recommended)
@@ -93,7 +93,7 @@ airline.exe      # Windows
 
 ---
 
-## 📋 Sample Flights
+## Sample Flights
 
 | Flight ID | Route | Time |
 |-----------|-------|------|
@@ -104,16 +104,16 @@ airline.exe      # Windows
 
 ---
 
-## 🔐 Admin Access
+## Admin Access
 
 ```
 Password: Admin123
 ```
-> ⚠️ 5 attempts allowed before returning to main menu.
+>  5 attempts allowed before returning to main menu.
 
 ---
 
-## 📁 Project Structure
+##  Project Structure
 
 ```
 Airline-Reservation-System/
@@ -122,11 +122,11 @@ Airline-Reservation-System/
 └── README.md         # Project documentation
 ```
 
-> 📄 On booking, a `<FlightID>_passenger_list.txt` file is generated automatically.
+> On booking, a `<FlightID>_passenger_list.txt` file is generated automatically.
 
 ---
 
-## 👨‍💻 Author
+## Author
 
 **Dev Kotadiya**  
 B.Tech Computer Engineering  
@@ -134,6 +134,6 @@ GitHub: [@devkotadiya](https://github.com/devkotadiya)
 
 ---
 
-## 📄 License
+## License
 
 This project is for educational purposes only.
